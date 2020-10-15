@@ -1,13 +1,24 @@
 {
   "dependencies": {
-    "com.unity.package-manager-ui": "2.0.8",
-    "com.unity.textmeshpro": "1.4.1",
-    "com.unity.xr.arcore": "2.1.2",
-    "com.unity.xr.arfoundation": "1.5.0-preview.6",
-    "com.unity.xr.arkit": "2.1.2",
-    "com.unity.xr.openvr.standalone": "1.0.5",
-    "com.unity.xr.windowsmr.metro": "1.0.21",
+    "com.oculus.integration": "file:../../../com.oculus.integration.inofficial",
+    "com.pfc.packagetools": "0.6.0-preview",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.2d.tilemap": "1.0.0",
+    "com.unity.ide.rider": "2.0.7",
+    "com.unity.ide.vscode": "1.2.2",
+    "com.unity.multiplayer-hlapi": "1.0.6",
+    "com.unity.test-framework": "1.1.18",
+    "com.unity.textmeshpro": "2.1.1",
+    "com.unity.timeline": "1.4.3",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.xr.arcore": "2.1.11",
+    "com.unity.xr.arfoundation": "2.1.8",
+    "com.unity.xr.arkit": "2.1.9",
+    "com.unity.xr.legacyinputhelpers": "2.1.4",
+    "com.unity.xr.management": "3.2.16",
+    "com.unity.xr.oculus": "1.5.0",
     "com.unity.modules.ai": "1.0.0",
+    "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
     "com.unity.modules.audio": "1.0.0",
@@ -37,5 +48,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "pfc",
+      "url": "https://packages.prefrontalcortex.de/b5ae82d7-6109-471c-a533-0497d4d714f5",
+      "scopes": [
+        "com.pfc"
+      ]
+    }
+  ]
 }
